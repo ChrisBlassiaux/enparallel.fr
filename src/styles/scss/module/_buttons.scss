@@ -1,0 +1,75 @@
+// btn
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 12px 0;
+  width: 100%;
+  margin: 15px 0;
+
+  text-align: center;
+
+  border: solid 1px transparent;
+  border-radius: 25px;
+
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+
+  cursor: pointer;
+  z-index: 1;
+
+  &.btn-primary {
+    background: $btn-bg-color;
+    color: $btn-color;
+
+    &:hover {
+      background: transparent;
+      color: $btn-color;
+      border: solid 1px $btn-dark-border-color;
+    }
+  }
+
+  &.btn-secondary {
+    background: transparent;
+    color: $btn-color;
+    border-color: $btn-dark-border-color;
+
+    &:hover {
+      color: $primary-font-color;
+      border-color: $btn-primary-bg-color;
+    }
+  }
+
+  &.btn-danger {
+    background: transparent;
+    color: $btn-color;
+    border-color: $btn-dark-border-color;
+
+    &:hover {
+      color: $alert-font-color;
+      border-color: $btn-alert-bg-color;
+    }
+  }
+
+  &.btn-quaternary {
+    background: $btn-quaternary-bg-color;
+    color: $light-font-color;
+    border-color: $btn-quaternary-bg-color;
+
+    &:hover {
+      background-color: transparent;
+      color: $btn-quaternary-bg-color;
+    }
+  }
+}
+
+// responsive
+@media only screen and (min-width: $middle-screen-size) {
+  //btn
+  .btn {
+    width: auto;
+    min-width: 250px;
+    padding: 12px 55px;
+    margin: auto;
+  }
+}

@@ -1,0 +1,67 @@
+// choose theme
+@import 'theme/default';
+
+// bg-color
+$primary-bg-color: map-get($color-map,site-primary-color);
+$secondary-bg-color: map-get($color-map,site-secondary-color);
+$tertiary-bg-color: map-get($color-map,site-tertiary-color);
+$quaternary-bg-color: map-get($color-map,site-quaternary-color);
+$light-bg-color: map-get($color-map,site-light-color);
+$white-bg-color: map-get($color-map,site-white-color);
+$dark-bg-color: map-get($color-map,site-dark-color);
+$info-bg-color: map-get($color-map,site-info-color);
+$warning-bg-color: map-get($color-map,site-warning-color);
+$alert-bg-color: map-get($color-map,site-alert-color);
+$gradient-bg-color: linear-gradient(89deg, #9ed6e5 18%, #9ed1c9 61%, #9ed6e5 80%, #9DC9A6 100%);
+
+// font
+$primary-font: 'Livvic', sans-serif;
+$secondary-font: 'Nunito', sans-serif;
+
+$default-font-family: sans-serif;
+$default-font-size: 16px;
+$default-line-height: 1.5rem;
+
+$weight-bold: 800;
+$weight-semi-bold: 500;
+$weight-semi-light: 300;
+$weight-light: 200;
+
+// font-color
+$primary-font-color: map-get($color-map,site-primary-color);
+$secondary-font-color: map-get($color-map,site-secondary-color);
+$tertiary-font-color: map-get($color-map,site-tertiary-color);
+$quaternary-font-color: map-get($color-map,site-quaternary-color);
+$light-font-color: map-get($color-map,site-light-color);
+$grey-font-color: map-get($color-map,site-grey-color);
+$dark-font-color: map-get($color-map,site-dark-color);
+$info-font-color: map-get($color-map,site-info-color);
+$warning-font-color: map-get($color-map,site-warning-color);
+$alert-font-color: map-get($color-map,site-alert-color);
+
+// border-color
+$primary-border-color: #D3DDE5;
+
+// shadow-color
+$primary-shadow-color: #292929;
+
+// btn-color
+$btn-color: #292D32;
+$btn-bg-color: linear-gradient(90deg, rgba(157,201,163,1) 0%, rgba(157,201,163,1) 17%, rgba(158,209,201,1) 45%, rgba(158,214,229,1) 100%);
+
+$btn-primary-bg-color: map-get($color-map,site-primary-color);
+$btn-quaternary-bg-color: map-get($color-map,site-quaternary-color);
+$btn-dark-bg-color: map-get($color-map,site-dark-color);
+$btn-info-bg-color: map-get($color-map,site-info-color);
+$btn-alert-bg-color: map-get($color-map,site-alert-color);
+$btn-warning-bg-color: map-get($color-map,site-warning-color);
+
+// btn-border-color
+$btn-dark-border-color: map-get($color-map,site-dark-color);
+
+// breakpoints responsive
+$x-small-screen-size: 320px;
+$small-screen-size: 480px;
+$middle-screen-size: 980px;
+$large-screen-size: 1200px;
+$x-large-screen-size: 1960px;

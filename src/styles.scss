@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+// ---- MATERIAL
+
+@import "styles/material/my-theme";
+
+// ---- Global style with SCSS styles/scss/...
+
+// import variables & theme
+@import "variables";
+
+// imports base
+@import "base/_reset";
+@import "base/_base";
+@import "base/_fonts";
+
+// imports layout
+@import "layout/_grids";
+@import "layout/_cards";
+@import "layout/_headers";
+
+// imports module
+@import "module/_navbar";
+@import "module/_buttons";
+@import "module/_tables";
+
+// imports state
+@import "state/_states";

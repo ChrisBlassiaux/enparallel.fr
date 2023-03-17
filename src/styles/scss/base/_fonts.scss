@@ -1,0 +1,117 @@
+html {
+  font-size: $default-font-size;
+}
+
+body {
+  font-family: $primary-font;
+  line-height: $default-line-height;
+}
+
+// alignments
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+// style
+.text-italic {
+  font-style: italic;
+}
+
+//titles
+.title {
+  margin: 35px 0;
+  font-size: 1.7rem;
+}
+
+.subtitle {
+  margin-bottom: 35px;
+}
+
+// text-colors
+.text-light {
+  color: $light-font-color;
+}
+
+.text-dark {
+  color: $dark-font-color;
+}
+
+.text-primary {
+  color: $primary-font-color !important;
+}
+
+.text-secondary {
+  color: $secondary-font-color !important;
+}
+
+.text-tertiary {
+  color: $tertiary-font-color !important;
+}
+
+.text-alert {
+  color: $alert-font-color !important;
+}
+
+// weights
+.bold {
+  font-weight: $weight-bold;
+}
+
+.semi-bold {
+  font-weight: $weight-semi-bold;
+}
+
+.semi-light {
+  font-weight: $weight-semi-light;
+}
+
+.light {
+  font-weight: $weight-light;
+}
+
+// links
+.link {
+  font-style: italic;
+  color: $quaternary-font-color;
+}
+
+.mark {
+  text-decoration: underline;
+  color: $tertiary-font-color;
+}
+
+// infos
+.info {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.info-alert {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+
+// important texts
+
+
+// style
+.uppercase {
+  text-transform: uppercase;
+}
+
+.white-space-normal {
+  white-space: normal !important;
+}
+
+// break-work
+.break-word {
+  word-break: break-word;
+}

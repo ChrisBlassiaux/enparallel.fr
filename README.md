@@ -1,4 +1,4 @@
-# EnparallelFrFront
+# Parallel
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
 
@@ -25,3 +25,26 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Kit UI (CSS)
+
+The style of the application is mostly developed with the sass preprocessor.
+
+The CSS architecture is in the `styles/scss/` folder.
+
+**In this folder, we find the following architecture:**
+
+```
+┣ 📂styles 
+    ┣ 📂scss 
+        ┣ 📂 base
+        ┣ 📂 layout
+        ┗ 📂 module
+        ┗ 📂 state
+        ┗ 📂 theme
+        ┗ 📜 _variables.scss
+```
+
+This architecture governed by the **_[SMACSS](http://smacss.com/)_** convention.
+
