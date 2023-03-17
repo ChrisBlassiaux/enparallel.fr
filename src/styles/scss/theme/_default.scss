@@ -2,19 +2,14 @@
 // use map to use the colors
 // ex: map-get($color-map, site-primary-color)
 $color-map: (
-  site-primary-color: #9DC9A3,
-  site-secondary-color: #9ED6E5,
-  site-tertiary-color: #061934,
-  site-quaternary-color: #51526C,
-  site-quinary-color:  #F4F0BB,
-  site-dark-color:  #292D32,
+  site-primary-color: #4543B3,
+  site-secondary-color: #FAC59F,
+  site-tertiary-color: #FEF0D8,
+  site-dark-color:  #373046,
   site-alert-color: #B21B28,
-  site-alert-secondary-color:  #F19CA2,
-  site-success-color:  #66666F,
-  site-success-secondary-color:  #F19CA2,
   site-warning-color: #ffd477,
   site-info-color: #9ED6E5,
-  site-white-color: #FAFAFA,
-  site-light-color: #F6F5F3,
+  site-white-color: #FFFFFF,
+  site-light-color: #FEF7EB,
   site-grey-color: #d0d0d0,
 );

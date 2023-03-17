@@ -1,4 +1,10 @@
+.card {
+  padding: 20px;
 
+  background-color: $light-bg-color;
+
+  border-radius: 4px;
+}
 
 
 @media only screen and (min-width: $middle-screen-size) {

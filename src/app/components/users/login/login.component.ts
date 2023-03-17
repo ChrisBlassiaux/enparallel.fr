@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {AngularFirestore} from "@angular/fire/compat/firestore";
+import {UserService} from "../../../services/user.service";
 
 @Component({
   selector: 'app-login',
@@ -8,10 +8,17 @@ import {AngularFirestore} from "@angular/fire/compat/firestore";
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private store: AngularFirestore) {}
+  constructor(private usersService: UserService) {}
 
   ngOnInit() {
     // this.store.collection('todo').add({ test: 'coucou' })
+
+    this.usersService.getUser(9).subscribe(res => {
+      res.forEach((data: any) => {
+        console.log(data.payload.doc.data())
+      })
+    })
+
   }
 
 

@@ -2,14 +2,15 @@
 .btn {
   position: relative;
   display: inline-block;
-  padding: 12px 0;
+  padding: 8px 0;
   width: 100%;
   margin: 15px 0;
 
   text-align: center;
+  font-weight: $weight-bold;
 
   border: solid 1px transparent;
-  border-radius: 25px;
+  border-radius: 4px;
 
   -webkit-transition: .3s;
   -o-transition: .3s;
@@ -20,7 +21,7 @@
 
   &.btn-primary {
     background: $btn-bg-color;
-    color: $btn-color;
+    color: $light-font-color;
 
     &:hover {
       background: transparent;
@@ -48,17 +49,6 @@
     &:hover {
       color: $alert-font-color;
       border-color: $btn-alert-bg-color;
-    }
-  }
-
-  &.btn-quaternary {
-    background: $btn-quaternary-bg-color;
-    color: $light-font-color;
-    border-color: $btn-quaternary-bg-color;
-
-    &:hover {
-      background-color: transparent;
-      color: $btn-quaternary-bg-color;
     }
   }
 }

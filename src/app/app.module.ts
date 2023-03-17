@@ -20,7 +20,6 @@ import { SourcesComponent } from './components/sources/sources.component';
 import { ChallengesComponent } from './components/challenges/challenges.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MaterialModuleModule } from "./material-module/material-module.module";
 import {AngularFireModule} from "@angular/fire/compat";
 import {AngularFirestoreModule} from "@angular/fire/compat/firestore";
 
@@ -49,7 +48,6 @@ import { environment } from 'src/environments/environment';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModuleModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule
   ],

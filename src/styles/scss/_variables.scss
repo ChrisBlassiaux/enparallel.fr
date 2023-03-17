@@ -5,18 +5,15 @@
 $primary-bg-color: map-get($color-map,site-primary-color);
 $secondary-bg-color: map-get($color-map,site-secondary-color);
 $tertiary-bg-color: map-get($color-map,site-tertiary-color);
-$quaternary-bg-color: map-get($color-map,site-quaternary-color);
 $light-bg-color: map-get($color-map,site-light-color);
 $white-bg-color: map-get($color-map,site-white-color);
 $dark-bg-color: map-get($color-map,site-dark-color);
 $info-bg-color: map-get($color-map,site-info-color);
 $warning-bg-color: map-get($color-map,site-warning-color);
 $alert-bg-color: map-get($color-map,site-alert-color);
-$gradient-bg-color: linear-gradient(89deg, #9ed6e5 18%, #9ed1c9 61%, #9ed6e5 80%, #9DC9A6 100%);
 
 // font
-$primary-font: 'Livvic', sans-serif;
-$secondary-font: 'Nunito', sans-serif;
+$primary-font: 'Poppins', sans-serif;
 
 $default-font-family: sans-serif;
 $default-font-size: 16px;
@@ -31,7 +28,6 @@ $weight-light: 200;
 $primary-font-color: map-get($color-map,site-primary-color);
 $secondary-font-color: map-get($color-map,site-secondary-color);
 $tertiary-font-color: map-get($color-map,site-tertiary-color);
-$quaternary-font-color: map-get($color-map,site-quaternary-color);
 $light-font-color: map-get($color-map,site-light-color);
 $grey-font-color: map-get($color-map,site-grey-color);
 $dark-font-color: map-get($color-map,site-dark-color);
@@ -47,10 +43,10 @@ $primary-shadow-color: #292929;
 
 // btn-color
 $btn-color: #292D32;
-$btn-bg-color: linear-gradient(90deg, rgba(157,201,163,1) 0%, rgba(157,201,163,1) 17%, rgba(158,209,201,1) 45%, rgba(158,214,229,1) 100%);
+$btn-bg-color: map-get($color-map,site-primary-color);
 
 $btn-primary-bg-color: map-get($color-map,site-primary-color);
-$btn-quaternary-bg-color: map-get($color-map,site-quaternary-color);
+$btn-secondary-bg-color: map-get($color-map,site-secondary-color);
 $btn-dark-bg-color: map-get($color-map,site-dark-color);
 $btn-info-bg-color: map-get($color-map,site-info-color);
 $btn-alert-bg-color: map-get($color-map,site-alert-color);
