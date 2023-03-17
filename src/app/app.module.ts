@@ -21,6 +21,10 @@ import { ChallengesComponent } from './components/challenges/challenges.componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MaterialModuleModule } from "./material-module/material-module.module";
+import {AngularFireModule} from "@angular/fire/compat";
+import {AngularFirestoreModule} from "@angular/fire/compat/firestore";
+
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -45,7 +49,9 @@ import { MaterialModuleModule } from "./material-module/material-module.module";
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModuleModule
+    MaterialModuleModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

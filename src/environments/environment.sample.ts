@@ -7,10 +7,15 @@
 // *************************************************
 // IMPORTANT : GIVE THE SAME VAR NAME IN ``environment.ts` AND envConfigFile constant from `src/environments/set-env.ts`
 // *************************************************
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 export const environment = {
   production: false,
-  apiUrl: 'yourApiUrl',
-  apiDomain: 'yourApiDomain',
-  apiKey: 'YourApiKey',
-  encryptionKey: 'YourEncryptionKey1234'
+  firebase: {
+    apiKey: '<your-key>',
+    authDomain: '<your-project-authdomain>',
+    databaseURL: '<your-database-URL>',
+    projectId: '<your-project-id>',
+    storageBucket: '<your-storage-bucket>',
+    messagingSenderId: '<your-messaging-sender-id>'
+  }
 };

@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "enparallel.fr-front:build:production",
+            "firebaseProject": "parallel-back",
+            "firebaseHostingSite": "parallel-back"
+          }
         }
       }
     }

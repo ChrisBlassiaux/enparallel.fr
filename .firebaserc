@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "parallel-back": {
+      "hosting": {
+        "enparallel.fr-front": [
+          "parallel-back"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "parallel-back"
+  }
+}
